@@ -73,7 +73,7 @@ def runner
   # code runner here
   welcome
   sum = initial_round
-  total = hit?(sum)
+  new_sum = hit?(sum)
   
   until total > 21
     hit?(total)
